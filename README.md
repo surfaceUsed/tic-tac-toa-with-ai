@@ -1,4 +1,4 @@
-# tic-tac-toa-with-ai
+# tic-tac-toe-with-ai
 
 Hyperskill project "Tic tac toe with AI" (Java developer).
 
