@@ -4,7 +4,7 @@ Hyperskill project "Tic tac toe with AI" (Java developer).
 
 Stage 5/5.
 
-Tic tac toe game with an easy, medium or hard AI. The application asks the user for input; the user chooses if he/she is going to play, or lett the computer battle it out.
+Tic tac toe game with an easy, medium or hard AI. The application asks the user for input; the user chooses if he/she is going to play, or let the computer battle it out.
 
 To initialize the application the user needs to type in "start", followed by who is going to play:
 
