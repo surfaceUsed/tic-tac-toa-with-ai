@@ -98,8 +98,7 @@ public class MediumAlgorithm implements GameAlgorithm {
         if (this.gameTable[indexOne[x]][indexOne[y]] != ' ' &&
                 this.gameTable[indexOne[x]][indexOne[y]] != gamePiece) {
             countGamePiece--;
-            //return null;
-
+            
         } else if (this.gameTable[indexOne[x]][indexOne[y]] == ' ') {
             coordinates = new int[]{indexOne[x], indexOne[y]};
 
@@ -110,7 +109,6 @@ public class MediumAlgorithm implements GameAlgorithm {
         if (this.gameTable[indexTwo[x]][indexTwo[y]] != ' ' &&
                 this.gameTable[indexTwo[x]][indexTwo[y]] != gamePiece) {
             countGamePiece--;
-            //return null;
 
         } else if (this.gameTable[indexTwo[x]][indexTwo[y]] == ' ') {
             coordinates = new int[]{indexTwo[x], indexTwo[y]};
@@ -122,7 +120,6 @@ public class MediumAlgorithm implements GameAlgorithm {
         if (this.gameTable[indexThree[x]][indexThree[y]] != ' ' &&
                 gameTable[indexThree[x]][indexThree[y]] != gamePiece) {
             countGamePiece--;
-            // return null;
 
         } else if (this.gameTable[indexThree[x]][indexThree[y]] == ' ' ) {
             coordinates = new int[]{indexThree[x], indexThree[y]};
@@ -132,7 +129,6 @@ public class MediumAlgorithm implements GameAlgorithm {
         }
 
         return (countGamePiece == 2) ? coordinates : null;
-
     }
 
     private void makeRandomPlay() {
