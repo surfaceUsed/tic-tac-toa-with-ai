@@ -13,5 +13,6 @@ To initialize the application the user needs to type in "start", followed by who
 "exit" -> exits program.
 
 Example: "Input command: start user medium".
+
          "Input command: exit". - program stops.
 
